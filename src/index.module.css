@@ -1,0 +1,11 @@
+.test {
+  border: 5px solid;
+  color: blue;
+  background-color: yellow;
+}
+
+.title {
+  border: 8px solid;
+  color: red;
+  background-color: blue;
+}
