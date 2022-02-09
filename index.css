@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.title {
+  color: white;
+}
+
+.btn {
+  background-color: grey;
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+}
+
+.messages {
+  border: 1px solid;
+  background-color: rgb(80, 54, 54);
+  text-align: center;
+}
+
+.function {
+  border: 1px solid;
+  background-color: rgb(30, 13, 185);
+  text-align: center;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.radius {
+  margin-left: 620px;
+  border: 1px solid;
+  width: 30%;
+  height: 40%;
+  background-color: black;
+  background-image: url(https://i.ytimg.com/vi/afYm4UcDyWQ/hqdefault.jpg);
+}
+
+.user {
+  color: green;
+}
+
+.bot {
+  color: white;
+}
+
+.buttons {
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    0 1px 2px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    0 1px 2px rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2),
+    0 1px 2px rgba(0, 0, 0, 0.08);
+  color: black;
+  display: block;
+  width: 100px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 8px 16px;
+  margin: 20px auto;
+  text-decoration: none;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: background-color 0.1s linear;
+  -moz-transition: background-color 0.1s linear;
+  -o-transition: background-color 0.1s linear;
+  transition: background-color 0.1s linear;
+}
+.buttons {
+  background-color: rgb(43, 153, 91);
+  border: 1px solid rgb(33, 126, 74);
+}
+
+.buttons:hover {
+  background-color: rgb(75, 183, 141);
+}
+
+.button {
+  color: rgb(1, 7, 12);
+  width: 30%;
+  height: 30%;
+  text-align: center;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: rgb(165, 110, 165);
+}
